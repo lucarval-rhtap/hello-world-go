@@ -8,4 +8,6 @@ RUN go build -buildvcs=false -o ./main
 ENV PORT 8081
 EXPOSE 8081
 
+LABEL test=one
+
 CMD [ "./main" ]
